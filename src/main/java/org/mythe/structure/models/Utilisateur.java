@@ -1,8 +1,12 @@
 package org.mythe.structure.models;
 
-import org.mythe.structure.models.connexion.ParametreConnexion;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 public class Utilisateur {
 
-  private String login;
+
+  @NotNull
+  @NotBlank
+  private String login;  /** login de connexion **/
 }

@@ -9,7 +9,7 @@ public interface MytheInterfaceServices<User, Prest, Res, Cren> {
 
 
   /** Un utilisateur doit pouvoir s'inscrire sur la plateforme**/
-  Utilisateur inscription(Utilisateur utilisateur, Function<ParametreConnexion, Utilisateur> function);
+  Utilisateur inscription(User user, Utilisateur utilisateur);
 
   /** Un utilisateur doit pouvoir se désincrire de la plateforme**/
   boolean desincription(User user);

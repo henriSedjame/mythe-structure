@@ -3,15 +3,12 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="0.0" y="163.0">org.mythe.structure.models.Utilisateur</node>
-    <node x="0.0" y="0.0">org.mythe.structure.models.connexion.ParametreConnexion</node>
+    <node x="0.0" y="0.0">org.mythe.structure.models.Utilisateur</node>
   </nodes>
   <notes />
   <edges />
   <settings layout="Hierarchic Group" zoom="1.0" x="0.0" y="0.0" />
-  <SelectedNodes>
-    <node>org.mythe.structure.models.Utilisateur</node>
-  </SelectedNodes>
+  <SelectedNodes />
   <Categories>
     <Category>Fields</Category>
   </Categories>
